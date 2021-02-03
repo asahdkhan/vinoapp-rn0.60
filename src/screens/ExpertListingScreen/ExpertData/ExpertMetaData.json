@@ -1,0 +1,112 @@
+{
+  "en_experts": [
+    {
+      "id": "1",
+      "firstName": "Todd",
+      "lastName": "Bone",
+      "city": "USA",
+      "age": 54,
+      "profession": "Founder",
+      "more_info": "He lives in Atlanta, USA, but has family in Argentina and a home in Buenos Aires. He is the founder of Technology businesses including a coveted .com enterprise that supported multi-million-dollar e-commerce portals as well as providing Internet Marketing to companies such as Time Warner. He is currently an executive for 2 companies based out of Buenos Aires for over 8 years. Todd is on the board of associates for the IT industry in the USA and was president of the Atlanta Entrepreneurs Organization.",
+    },
+    {
+      "id": "2",
+      "firstName": "Jorge",
+      "lastName": "Bourdieu",
+      "city": "Argentina",
+      "age": 50,
+      "profession": "Collaborator",
+      "more_info": "Sommelier and lawyer, in that order. Professor in the career of Sommelier at EAV (Argentine School of Wine). Head Sommelier at Vida Wines, importer of Argentine wines in the USA. He used to work at Bodegas Atilio Avena and Goyenecha. He was member of the tasting panel of Austral Spectator.",
+      "facebookLink": "https://www.facebook.com/jorge.bourdieu",
+      "instagramLink": "https://www.instagram.com/georgebourdieu/"
+    },
+    {
+      "id": "3",
+      "firstName": "Guillermo",
+      "lastName": "Maguire",
+      "city": "Argentina",
+      "profession": "PR",
+      "more_info": "VinoApp's Ambassador! “The tall guy”. Married, no kids, and lot of tasted wine. IT professional, friend of Todd, and our PR guy.",
+      "instagramLink": "https://www.instagram.com/guillote_vinoapp/"
+    },
+    {
+      "id": "4",
+      "firstName": "Nicolas",
+      "lastName": "Orsini",
+      "city": "Argentina",
+      "age": 34,
+      "profession": "Collaborator",
+      "more_info": "Journalist. Passionate about communicating the wonderful world of wine. Member of ‘Argentina Wine Bloggers’. Critic at ‘Vino Sub30 2015 edition’. Collaborator in Argentine Association of Sommeliers.",
+      "bioLink": "www.nicolasorsini.com",
+      "twitterLink": "https://twitter.com/nicolasorsini",
+      "instagramLink": "https://www.instagram.com/nicolasorsini/"
+    },
+    {
+      "id": "5",
+      "firstName": "Pablo",
+      "lastName": "Santos",
+      "city": "Argentina",
+      "age": 32,
+      "profession": "Director",
+      "more_info": "Pablo is a marketing professional with 10 years of experience in digital advertising and 5 years specifically in the world of wine. He worked for Mccan Erickson for 3 years and was Account Director for Avatar for 5 years. He was most recently Director of Marketing for the winery Achaval-Ferrer for 3 years and today he directs his own marketing agency focused on wine. He has been running the VinoApp project from 2016.",
+      "twitterLink": "https://twitter.com/pablosann",
+      "instagramLink": "https://www.instagram.com/palosaint/"
+    }
+  ],
+  "es_experts": [
+    {
+      "id": "1",
+      "firstName": "Todd",
+      "lastName": "Bone",
+      "city": "USA",
+      "age": 54,
+      "profession": "Founder",
+      "more_info": "He lives in Atlanta, USA, but has family in Argentina and a home in Buenos Aires. He is the founder of Technology businesses including a coveted .com enterprise that supported multi-million-dollar e-commerce portals as well as providing Internet Marketing to companies such as Time Warner. He is currently an executive for 2 companies based out of Buenos Aires for over 8 years. Todd is on the board of associates for the IT industry in the USA and was president of the Atlanta Entrepreneurs Organization.",
+    },
+    {
+      "id": "2",
+      "firstName": "Jorge",
+      "lastName": "Bourdieu",
+      "city": "Argentina",
+      "age": 50,
+      "profession": "Collaborator",
+      "more_info": "Sommelier and lawyer, in that order. Professor in the career of Sommelier at EAV (Argentine School of Wine). Head Sommelier at Vida Wines, importer of Argentine wines in the USA. He used to work at Bodegas Atilio Avena and Goyenecha. He was member of the tasting panel of Austral Spectator.",
+      "facebookLink": "https://www.facebook.com/jorge.bourdieu",
+      "instagramLink": "https://www.instagram.com/georgebourdieu/"
+    },
+    {
+      "id": "3",
+      "firstName": "Guillermo",
+      "lastName": "Maguire",
+      "city": "Argentina",
+      "age": 50,
+      "profession": "Collaborator",
+      "more_info": "Sommelier and lawyer, in that order. Professor in the career of Sommelier at EAV (Argentine School of Wine). Head Sommelier at Vida Wines, importer of Argentine wines in the USA. He used to work at Bodegas Atilio Avena and Goyenecha. He was member of the tasting panel of Austral Spectator.",
+      "facebookLink": "https://www.facebook.com/jorge.bourdieu",
+      "instagramLink": "https://www.instagram.com/georgebourdieu/"
+    },
+    {
+      "id": "4",
+      "firstName": "Nicolas",
+      "lastName": "Orsini",
+      "city": "Argentina",
+      "age": 34,
+      "profession": "Collaborator",
+      "more_info": "Journalist. Passionate about communicating the wonderful world of wine. Member of ‘Argentina Wine Bloggers’. Critic at ‘Vino Sub30 2015 edition’. Collaborator in Argentine Association of Sommeliers.",
+      "bioLink": "www.nicolasorsini.com",
+      "twitterLink": "https://twitter.com/nicolasorsini",
+      "instagramLink": "https://www.instagram.com/nicolasorsini/"
+    },
+    {
+      "id": "5",
+      "firstName": "Pablo",
+      "lastName": "Santos",
+      "city": "Argentina",
+      "age": 32,
+      "profession": "Director",
+      "more_info": "Pablo is a marketing professional with 10 years of experience in digital advertising and 5 years specifically in the world of wine. He worked for Mccan Erickson for 3 years and was Account Director for Avatar for 5 years. He was most recently Director of Marketing for the winery Achaval-Ferrer for 3 years and today he directs his own marketing agency focused on wine. He has been running the VinoApp project from 2016.",
+      "twitterLink": "https://twitter.com/pablosann",
+      "instagramLink": "https://www.instagram.com/palitosanto/"
+    }
+  ]
+}

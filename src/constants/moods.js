@@ -1,0 +1,21 @@
+export default [
+  { label: 'Accomplished', value: 'accomplished' },
+  { label: 'Amused', value: 'amused' },
+  { label: 'Calm', value: 'calm' },
+  { label: 'Cheerful', value: 'cheerful' },
+  { label: 'Content', value: 'content' },
+  { label: 'Dreamy', value: 'dreamy' },
+  { label: 'Energetic', value: 'energetic' },
+  { label: 'Envious', value: 'envious' },
+  { label: 'Excitement', value: 'excitement' },
+  { label: 'Flirty', value: 'flirty' },
+  { label: 'Guilty', value: 'guilty' },
+  { label: 'Happy', value: 'happy' },
+  { label: 'Joy', value: 'joy' },
+  { label: 'Lonely', value: 'lonely' },
+  { label: 'Mysterious', value: 'mysterious' },
+  { label: 'Optimistic', value: 'optimistic' },
+  { label: 'Romantic', value: 'romantic' },
+  { label: 'Seductive', value: 'seductive' },
+  { label: 'Tense', value: 'tense' }
+]

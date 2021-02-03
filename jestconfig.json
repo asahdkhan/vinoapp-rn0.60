@@ -1,0 +1,28 @@
+{
+  "transformIgnorePatterns": [
+    "/node_modules/(?!react-native)"
+  ],
+  "preset": "react-native",
+  "setupFiles": ["./jest/setup.js"],
+  "snapshotSerializers": [
+    "./node_modules/enzyme-to-json/serializer"
+  ],
+  "moduleNameMapper": {
+    "^components(.*)$": "<rootDir>/src/components$1",
+    "^screens(.*)$": "<rootDir>/src/screens$1",
+    "^services(.*)$": "<rootDir>/src/services$1",
+    "^jest-helpers(.*)$": "<rootDir>/jest/helpers$1",
+    "^[./a-zA-Z0-9$_-]+\\.(bmp|gif|jpg|jpeg|png|psd|svg|webp)$": "<rootDir>/jest/helpers/fakeFile.js"
+  },
+  "coverageReporters": ["json", "lcov", "text"],
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/android/**",
+    "!**/ios/**",
+    "!**/jest/**",
+    "!**/coverage/**",
+    "!**/__test__/**"
+  ],
+  "coverageDirectory": "./jest/coverage/"
+}

@@ -1,0 +1,41 @@
+export default  [
+  {name: 'Best Value', value: 'best_value' },
+  {name: 'Bitter', value: 'bitter' },
+  {name: 'Classic', value: 'classic' },
+  {name: 'Explosive', value: 'explosive' },
+  {name: 'Good Value', value: 'good_value' },
+  {name: 'Great Value', value: 'great_value' },
+  {name: 'Night Opener', value: 'night_opener' },
+  {name: 'Old Realiable', value: 'old_realiable' },
+  {name: 'Perfume', value: 'perfume' },
+  {name: 'Rebel', value: 'rebel' },
+  {name: 'Sexy', value: 'sexy' },
+  {name: 'Spicy', value: 'spicy' },
+  {name: 'Sweet', value: 'sweet' },
+  {name: 'Tannic', value: 'tannic' },
+  {name: 'Elegant', value: 'elegant'},
+  {name: 'Green', value: 'green'},
+  {name: 'Popeye', value: 'popeye'},
+  {name: 'Silky', value: 'silky'}
+]
+
+export const PersonalitiesNames = {
+  'best_value': 'Best Value',
+  'bitter': 'Bitter',
+  'classic': 'Classic',
+  'explosive': 'Explosive',
+  'good_value': 'Good Value',
+  'great_value': 'Great Value',
+  'night_opener': 'Night Opener',
+  'old_realiable': 'Old Realiable',
+  'perfume': 'Perfume',
+  'rebel': 'Rebel',
+  'sexy': 'Sexy',
+  'spicy': 'Spicy',
+  'sweet': 'Sweet',
+  'tannic': 'Tannic',
+  'elegant': 'Elegant',
+  'green': 'Green',
+  'popeye': 'Popeye',
+  'silky': 'Silky'
+}

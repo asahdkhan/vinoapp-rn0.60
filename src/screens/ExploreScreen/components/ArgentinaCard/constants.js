@@ -1,0 +1,6 @@
+export default { 
+   about1: 'Located in the Southern Cone of the American Continent, with a population of 42 million inhabitants and a territory that is four times larger than France, Argentina is one of the world’s nature reserves. Privileged with outstanding natural richness and extraordinarily diverse landscapes, Argentina boasts high mountains and plains, lush vegetation and extreme deserts, forests and steppes, glaciers and waterfalls.\n',
+   about2: 'This wealth of natural ecosystems includes vast, highly productive grapegrowing regions stretching at the foot of the Andean strip, to the West of the country, from latitude 22° south to latitude 42° south. The cultivated area covers more than 538,071 acres.\n',
+   about3: 'It is in this context, and in the course of five centuries, that Argentina has developed such an extraordinary wine industry. The altitude, the wide range of temperatures, the local know-how, the new technologies and a deeply-rooted popular wine culture lend our wines their unique identity and quality.',
+}
+   

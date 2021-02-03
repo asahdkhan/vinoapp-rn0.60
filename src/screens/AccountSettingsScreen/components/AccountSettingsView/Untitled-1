@@ -1,0 +1,54 @@
+
+#AUTOMATICALLY GENERATED - DO NO EDIT!
+server {
+	listen 80;
+	server_name _;
+	return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 default_server;
+	server_name newweb.vinoapp.co vinoapp.co;
+    ssl    on;
+    ssl_certificate    		/etc/ssl/entrust_cert/CertificateBundle1.pem;
+    ssl_certificate_key    /etc/ssl/entrust_cert/vinoapp_co.key;
+    
+    access_log /var/log/nginx/webapp.access.log;
+    error_log /var/log/nginx/webapp.error.log;
+
+    root /srv/vinoapp-prod/web/dist;
+    index index.html index.htm index.php;
+
+    client_header_buffer_size 64k;
+	large_client_header_buffers 4 64k;
+
+location @core {
+	try_files $uri $uri/ /index.html;
+    
+    set $social 0;
+    if ($http_user_agent ~* "googlebot|yahoo|bingbot|baiduspider|yandex|yeti|yodaobot|gigabot|ia_archiver|facebookexternalhit|twitterbot|developers\.google\.com") {
+    	set $social 1;
+    }
+	
+    if ($social = 1) {
+        rewrite ^/(.*)/(.*)$ /v1/$1/share/$2; break;
+        proxy_pass http://127.0.0.1:3001;
+    }
+    
+        
+    if ($social = 0) {
+    	rewrite .* /index.html break;
+    }
+}
+
+    
+    
+    location  / {
+        
+        try_files $uri @core;
+        
+        
+
+    }
+
+}
